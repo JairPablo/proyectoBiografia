@@ -1,0 +1,101 @@
+* {
+    color: rgb(131, 129, 129);
+    font-family: "century gothic";
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    margin: 25px;
+}
+
+.titulos {
+    font-size: 200%;
+    display: inline;
+    background-color: rgba(192, 229, 248, 0.1);
+    padding: 25px;
+}
+
+.subtitulos {
+    font-size: 150%;
+    background-color: rgba(192, 229, 248, 0.1);
+    display: inline;
+}
+
+
+.fondo {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(https://cdn.ciudad.com.ar/sites/default/files/nota/2018/06/28/ricardo_fort_pelicula.jpg);
+    background-size: cover;
+    height: 110vh;
+    background-attachment: fixed;
+    margin: 0%;
+    background-repeat: no-repeat;
+}
+
+#imgPerfil {
+    text-align: center;
+    height: 400px;
+    width: 400px;
+    border-radius: 35%;
+    padding: 24px;
+}
+
+#fechas {
+    font-style: italic;
+    text-align: center;
+    display: inline;
+}
+
+.fondoTexto {
+    background-color: rgba(192, 229, 248, 0.1);
+    margin: 15px;
+    overflow: hidden;
+}
+
+.bullets {
+    display: inline-block;
+}
+
+.contFL1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.elm1 {
+    background-color: rgba(192, 229, 248, 0.1);
+    flex: 1 1 0%;
+    margin: 15px;
+    overflow: hidden;
+}
+
+
+.contFL2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.elm2 {
+    background-color: rgba(192, 229, 248, 0.1);
+    flex: 1 1 0%;
+    margin: 15px;
+    overflow: hidden;
+}
+
+.contFL3 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.elm3 {
+    background-color: rgba(192, 229, 248, 0.1);
+    flex: 1 1 0%;
+    margin: 15px;
+    overflow: hidden;
+}
+
+footer {
+    display: block;
+}
+
+#firma {
+    text-align: end;
+    padding: 25px;
+}
